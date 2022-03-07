@@ -1,0 +1,64 @@
+
+   
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Something brief about myself.</title>
+        <style>
+            img{
+                width: 400px;
+                border-radius:10px;
+            }
+        </style>
+    </head>
+    <body>
+        <img src="images/amuzu.jpg.webp">
+        <p><h3> My name Amuzu Emmanuel</h3>  </p>
+        <p><h3> I am 24 years old and I hail from the Keta in the Volta region but was born and brought up in Koforidua in the Eastern region.</h3> </p>
+        <p><h3> I am dark in complexion and of an average height.</h3></p>
+        <p><h3> Jollof rice is the food i love best.</h3> </p>
+        <p><h3> We are five in total 2 girls and 2 boys and my mom i happened to be the last born.</h3></p>
+        <p><h3> I love to to watch movies, listen to music and read at my leisure time. Sometimes too i like to go on hiking.</h3> </p>
+
+        <table>
+        <tr>
+        <th><h3>Name of instituion:</h3> </th>
+        <th><h3>Course offered:</h3>  </th>
+
+    </tr>
+    <tr>
+        <td><h3>Bright Senior High School </h3></td> 
+        <td><h3>  General Arts  </h3></td>
+
+        </tr>
+        <tr>
+            <td><h3>University of Ghana   </h3> </td>
+            <td><h3>  Bsc. Information Techology   </h3> </td>
+            </tr>
+        </table>
+
+
+       <form>
+             <br>
+                <label for="name"> Name:</label><br>
+                <input type="text" id="name" name="name" value="John"><br>
+                <label for="age">Age:</label><br>
+                <input type="number" id="age" name="age" value="00"><br>
+                <label for="telephone">Telephone Number:</label><br>
+                <input type="number" id="tel-num" name="tell" value="1234"><br>
+                <label for="gender">Gender:</label><br>
+                <select id="gender" name="gender">
+                    <option value="female">female</option>
+                    <option value="male">male</option>
+                </select><br>
+                <label for="idtype">ID type:</label><br>
+                <select id="idtype" name="idtype">
+                    <option value="passport">Passport</option>
+                    <option value="id">National ID</option>
+                </select><br>
+                <label for="idNum">ID Number:</label><br>
+                <input type="number" id="idNum" name="idNum" value="1234"><br><br>
+                <input type="submit" value="Submit">
+                
+        </body>
+</html>
